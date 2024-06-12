@@ -1,5 +1,5 @@
 import { Swiper, SwiperSlide }  from 'swiper/react';
-import {Autoplay} from "swiper/modules"
+import {Autoplay,EffectFade} from "swiper/modules"
 const image1="https://eola.qodeinteractive.com/wp-content/uploads/2018/05/h-1-slider-1.jpg";
 const image2="https://eola.qodeinteractive.com/wp-content/uploads/2018/06/h-1-slider-4.jpg";
 const image3="https://eola.qodeinteractive.com/wp-content/uploads/2018/06/h-1-slider-3-1.jpg";
@@ -23,8 +23,10 @@ export default function Hero(){
       slidesPerView={1}
       onSlideChange={() => console.log('slide change')}
       onSwiper={(swiper) => console.log(swiper)}
-    //   autoplay={{delay: 2500,disableOnInteraction: false}}
-    //   modules={[Autoplay]}
+      autoplay={{delay: 2500,disableOnInteraction: false}}
+      loop={true}
+      speed={1000}
+      modules={[Autoplay]}
     >
       <SwiperSlide className='min-h-screen bg-black'>
         <ImageCard image={image1} paragraph={"Our New Arrivals Comming To Your Address"} title={"Stylish Details"} text={"SEE MORE"}/>
@@ -33,7 +35,7 @@ export default function Hero(){
       <ImageCard image={image2} paragraph={"Our New Arrivals Comming To Your Address"} title={"New Collection"} text={"SEE MORE"}/>
       </SwiperSlide>
       <SwiperSlide>
-      <ImageCard image={image3} paragraph={"Our New Arrivals Comming To Your Address"} title={"New Collection"} text={"SEE MORE"}/>
+      <ImageCard image={image3} paragraph={"Our New Arrivals Comming To Your Address"} title={"Lovely Colours"} text={"SEE MORE"}/>
       </SwiperSlide>
       
     </Swiper>
