@@ -8,6 +8,8 @@ export default {
     extend: {
       fontFamily: {
         'work-sans': ['"Work Sans"', 'sans-serif'],
+        'cormorant-uni': ["Cormorant Unicase", 'serif'],
+        'cormorant-gara':["Cormorant Garamond", 'serif']
       },
     },
   },
