@@ -21,8 +21,6 @@ export default function Hero(){
         <Swiper className='min-h-screen '
       spaceBetween={50}
       slidesPerView={1}
-      onSlideChange={() => console.log('slide change')}
-      onSwiper={(swiper) => console.log(swiper)}
       autoplay={{delay: 2500,disableOnInteraction: false}}
       loop={true}
       speed={1000}

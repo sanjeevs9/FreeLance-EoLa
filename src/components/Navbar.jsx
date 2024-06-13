@@ -2,12 +2,28 @@ import user from "../assets/user.png"
 import bag from "../assets/shopping-bag.png"
 import search from "../assets/search.png"
 import bar from "../assets/burger-bar.png"
-import { useState } from "react"
+import { useEffect, useState } from "react"
 
 
 
 export default function Navbar(){
     const [drop,setDrop]=useState(false);
+
+    useEffect(()=>{
+        
+        const handleResize = ()=>{
+            if(window.innerWidth > 1024){
+                setDrop(false);
+            }
+        }
+        
+        window.addEventListener("resize",handleResize);
+
+        return()=>{
+            window.removeEventListener("resize",handleResize);
+        }
+    },[])
+
     return(
         <>
         <div className="flex justify-between  font-work-sans text-[13px] relative">
