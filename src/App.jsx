@@ -1,5 +1,6 @@
 
 import Hero from "./components/Hero"
+import Section2 from "./components/Section2"
 
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
     <div className="overflow-x-hidden">
 
 <Hero></Hero>
+<Section2/>
 </div>
     </>
   )
