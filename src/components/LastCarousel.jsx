@@ -20,14 +20,14 @@ export default function LastCarousel() {
   const[swiper,setSwiper]=useState(null);
   return (
     <>
-    <div className='pt-32 pl-5 pr-5'>
+    <div className=' pt-28 sm:pt-32 pl-5 pr-5'>
     <div className=' cursor-pointer relative  '>
       
       <Swiper  modules={[Navigation,Pagination,Autoplay]} 
       loop={true}
       onSwiper={setSwiper}
       autoplay={{delay:2500}}
-      speed={600}
+      speed={1000}
       className="mySwiper ">
         <SwiperSlide><LastCarouselContent image={image1} title={"Modern Concept"} content={"Loren ispum dolor sir amet, vim malo"}/></SwiperSlide>
         <SwiperSlide><LastCarouselContent image={image2} title={"Retro Collection"} content={"Loren ispum dolor sir amet, vim malo"}/></SwiperSlide>
