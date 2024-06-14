@@ -35,7 +35,7 @@ export default function LastCarousel() {
         
       </Swiper>
       <button onClick={()=>{swiper.slidePrev()}} ><img src={leftArrow} className='absolute size-fit w-8 top-1/3 sm:top-1/2 z-10 '/></button>
-      <button onClick={()=>{swiper.slideNext()}} ><img src={rightArrow} className=' absolute top-1/3 sm:top-1/2 z-10 right-5 size-fit w-8 ' /></button>
+      <button onClick={()=>{swiper.slideNext()}} ><img src={rightArrow} className=' absolute top-1/3 sm:top-1/2 z-10 right-0 size-fit w-8 ' /></button>
       </div>
       
       </div>
