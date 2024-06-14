@@ -11,7 +11,7 @@ export default function NewsCard({image,date,title,content}){
                     <div className="text-[#f5989d] font-cormorant-gara text-xl italic font-medium">{date}</div>
                     <div className="font-cormorant-uni pb-4 sm:text-3xl text-2xl">{title}</div>
                     <div className="text-[#a6a4a4] pb-6 font-work-sans font-extralight">{content}</div>
-                    <div className="font-work-sans text-sm underline">Read More</div>
+                    <div className="font-work-sans text-sm underline cursor-pointer">Read More</div>
                 </div>
             </div>
         </div>
