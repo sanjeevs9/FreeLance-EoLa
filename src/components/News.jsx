@@ -10,10 +10,10 @@ export default function News(){
     <div className="flex justify-center pl-12 pr-12 md:pl-10 md:pr-10  ">
         <div className="flex flex-col justify-center items-center pt-20 md:w-[80rem]  ">
             <div className="pb-10">
-                <div className="text-[#f5989d] font-cormorant-gara text-center text-xl font-medium italic">
+                <div className="text-[#f5989d] font-cormorant-gara text-center sm:text-xl text-lg font-medium italic">
                     spring / summer ‘18 collection
                 </div>
-                <div className="font-cormorant-uni text-5xl">
+                <div className="font-cormorant-uni sm:text-5xl text-4xl">
                     Our Latest News
                 </div>
             </div>
