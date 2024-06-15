@@ -1,6 +1,7 @@
 
 
 import Carousel from "./components/Carousel"
+import Footer from "./components/Footer"
 import Hero from "./components/Hero"
 import LastCarousel from "./components/LastCarousel"
 import News from "./components/News"
@@ -20,6 +21,7 @@ function App() {
 <Carousel/>
 <News/>
 <LastCarousel/>
+<Footer/>
 </div>
     </>
   )

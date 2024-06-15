@@ -58,20 +58,20 @@ export default function Navbar(){
                 {drop && (
                         <div className="absolute top-12 right-0 bg-white  w-60 rounded-sm">
                             <ul className="gap-3 flex flex-col pl-5 pr-5 pt-3">
-                            <li className="cursor-pointer text-red-400 ">HOME
+                            <li className="cursor-pointer text-[#f5989d] ">HOME
                         </li>
                         <hr/>
-                        <li className="cursor-pointer relative text-black hover:text-red-400">PAGES</li>
+                        <li className="cursor-pointer relative text-black hover:text-[#f5989d]">PAGES</li>
                         <hr/>
-                        <li className="cursor-pointer relative text-black hover:text-red-400">STORE</li>
+                        <li className="cursor-pointer relative text-black hover:text-[#f5989d]">STORE</li>
                         <hr/>
-                        <li className="cursor-pointer relative text-black hover:text-red-400">SHOP</li>
+                        <li className="cursor-pointer relative text-black hover:text-[#f5989d]">SHOP</li>
                         <hr/>
-                        <li className="cursor-pointer relative text-black hover:text-red-400">LOOKBOOK</li>
+                        <li className="cursor-pointer relative text-black hover:text-[#f5989d]">LOOKBOOK</li>
                         <hr/>
-                        <li className="cursor-pointer relative text-black hover:text-red-400">BLOG</li>
+                        <li className="cursor-pointer relative text-black hover:text-[#f5989d]">BLOG</li>
                         <hr/>
-                        <li className="cursor-pointer relative text-black hover:text-red-400 mb-2">ELEMENTS</li>
+                        <li className="cursor-pointer relative text-black hover:text-[#f5989d] mb-2">ELEMENTS</li>
                             </ul>
                         </div>
                     )}
