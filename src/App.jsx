@@ -23,8 +23,9 @@ function App() {
 <Carousel/>
 <News/>
 <LastCarousel/>
-<Footer/>
 <ContactUs/>
+<Footer/>
+
 </div>
     </>
   )
