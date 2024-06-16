@@ -13,9 +13,9 @@ export default function ContactUs2() {
                     </div>
                     <div>
                     <div className=" bg-gradient-to-tl from-[#f5989d] via-[#cae2cd] to-[#f5989d] p-[2.5px]  items-center justify-center w-[300px] h-[60px] sm:w-[500px] sm:h-[68px] md:w-[570px] md:h-[75px]">
-                        <div className="bg-white flex justify-between h-full pl-2 sm:pl-10 text-black">
-                        <input className=" font-work-sans text-black placeholder-black text-sm outline-none   sm:w-80 font-light" placeholder="Your e-mail"/>
-                        <button className="pr-2 sm:pr-10 font-work-sans text-xs tracking-widest">/ ‎  SUBSCRIBE</button>
+                        <div className="bg-white flex justify-between h-full pl-4 sm:pl-10 text-black">
+                        <input className=" font-work-sans text-black placeholder-black text-xs sm:text-sm outline-none   sm:w-80 font-light" placeholder="Your e-mail"/>
+                        <button className="pr-4 sm:pr-10 font-work-sans text-xs tracking-wide sm:tracking-widest">/ ‎  SUBSCRIBE</button>
                         </div>
                     </div>
                     </div>
