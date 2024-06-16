@@ -3,7 +3,7 @@
 export default function Footer(){
     return (
         <>
-         <div className="p-5">
+         <div className="p-5 pt-20">
             <div className=" flex  bg-[#e1eded] lg:h-72 h-auto pt-28 pb-28 justify-center items-center ">
                <div className="flex flex-col lg:flex-row  justify-between items-center w-[70rem] lg:pl-10 lg:pr-10  "> 
 

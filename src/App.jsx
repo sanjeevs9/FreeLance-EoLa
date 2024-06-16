@@ -9,6 +9,7 @@ import Section2 from "./components/Section2"
 import Section4 from "./components/Section4"
 import Map from "./components/Map"
 import ContactUs from "./components/ContactUs"
+import ContactUs2 from "./components/ContactUs2"
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
 <News/>
 <LastCarousel/>
 <ContactUs/>
+<ContactUs2/>
 <Footer/>
 
 </div>
