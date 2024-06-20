@@ -9,7 +9,7 @@ export default function Footer(){
 
                     <div>
                         
-                        <img className="size-fit w-16" src="https://eola.qodeinteractive.com/wp-content/uploads/2018/05/logo-divided-1.png"/>
+                        <img className="object-cover w-16" src="https://eola.qodeinteractive.com/wp-content/uploads/2018/05/logo-divided-1.png"/>
                     </div>
                   
                         <div className="flex flex-col  lg:flex-row font-work-sans xl:gap-16 lg:gap-14 gap-4 text-xs text-center pt-8 lg:pt-0 pb-8 lg:pb-0  items-center" >

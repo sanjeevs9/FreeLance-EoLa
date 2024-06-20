@@ -11,6 +11,9 @@ export default {
         'cormorant-uni': ["Cormorant Unicase", 'serif'],
         'cormorant-gara':["Cormorant Garamond", 'serif']
       },
+      textColor:{
+        "Pred":"#f5989d"
+      }
     },
   },
   plugins: [],

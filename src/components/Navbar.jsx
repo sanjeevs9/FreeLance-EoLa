@@ -28,7 +28,7 @@ export default function Navbar(){
         <>
         <div className="flex justify-between  font-work-sans text-[13px] relative">
             <div className="bg-white">
-                <img className="size-fit w-16" src="https://eola.qodeinteractive.com/wp-content/uploads/2018/05/logo-divided-1.png"/>
+                <img className="object-cover- w-16" src="https://eola.qodeinteractive.com/wp-content/uploads/2018/05/logo-divided-1.png"/>
             </div>
             <div className="flex justify-between gap-10 pt-4 pr-2  ">
                 <div className="hidden lg:flex">
@@ -44,16 +44,16 @@ export default function Navbar(){
                     </ul>
                 </div>
                 <div className="cursor-pointer transition ease-in-out delay-100 hover:-translate-y-[1px] hover:scale-110 duration-300">
-                    <img src={user} className="size-fit w-5" ></img>
+                    <img src={user} className="object-cover w-5" ></img>
                 </div>
                 <div className="cursor-pointer transition ease-in-out delay-100 hover:-translate-y-[1px] hover:scale-110 duration-300">
-                    <img src={search}  className="size-fit w-5"></img>
+                    <img src={search}  className="object-cover w-5"></img>
                 </div>
                 <div className="cursor-pointer transition ease-in-out delay-100 hover:-translate-y-[1px] hover:scale-110 duration-300">
-                    <img src={bag} className="size-fit w-5"></img>
+                    <img src={bag} className="object-cover w-5"></img>
                 </div>
                 <div className="lg:hidden cursor-pointer transition ease-in-out delay-100  hover:scale-110  -translate-y-1/4 " onClick={()=>{setDrop(!drop)}}>
-                    <img className="size-fit w-10" src={bar}></img>
+                    <img className="object-cover w-10" src={bar}></img>
                 </div>
                 {drop && (
                         <div className="absolute top-12 right-0 bg-white  w-60 rounded-sm">

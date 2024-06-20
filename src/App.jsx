@@ -8,26 +8,31 @@ import Section4 from "./components/Section4"
 import ContactUs from "./components/ContactUs"
 import ContactUs2 from "./components/ContactUs2"
 import Image from "./components/Image"
+import { BrowserRouter,Routes,Route } from "react-router-dom"
+import FAQ from "./components/Pages/FAQ"
 
 
 function App() {
 
   return (
     <>
-      <div className="overflow-x-hidden">
-
-        <Hero></Hero>
-        <Section2 />
-        <Section4 />
-        <Carousel />
-        <Image />
-        <News />
-        <LastCarousel />
-        <ContactUs />
-        <ContactUs2 />
-        <Footer />
-
-      </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<div className="overflow-x-hidden">
+            <Hero></Hero>
+            <Section2 />
+            <Section4 />
+            <Carousel />
+            <Image />
+            <News />
+            <LastCarousel />
+            <ContactUs />
+            <ContactUs2 />
+            <Footer />
+          </div>}/>
+          <Route path="/faq" element={<FAQ/>}/>          
+        </Routes>
+      </BrowserRouter>
     </>
   )
 }
