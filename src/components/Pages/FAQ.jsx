@@ -23,10 +23,10 @@ export default function FAQ(){
 
                     <div className="w-full md:w-10/12 flex flex-col gap-10 ">
                         <div className="flex  flex-col gap-5"> 
-                            <div className="font-cormorant-uni text-xl sm:text-2xl lg:text-3xl xl:text-3xl  ">
+                            <div className="font-cormorant-uni  text-xl sm:text-2xl lg:text-3xl xl:text-3xl  ">
                             1. Branding is a more efficient way to sell things?
                             </div>
-                            <div className="font-work-sans text-gray-500 text-sm ">
+                            <div className="font-work-sans text-gray-500 text-xs md:text-sm ">
                             Lorem ipsum dolor sit amet, consectetur a elit. In ut ullamcorper leo, eget euismod orci. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus musbulum ultricies aliquam convallis. Maecenas ut tellus mi. Proin tincidunt, lectus eu volutpat mattis, ante metus lacinia tellus, vitae condimentum nulla enim bibendum nibh. Praesent turpis risus, interdum nec venenatis id, pretium sit amet purus. Interdum et male suada fames ac ante ipsum primis in faucibus. Aliquam eu lorem nibh. Mauris ex dolor, rutrum in odio vel, suscipit ultrices nunc. Cras ipsum dolor.
                             </div>
                         </div>
@@ -34,7 +34,7 @@ export default function FAQ(){
                             <div className="font-cormorant-uni text-xl sm:text-2xl lg:text-3xl ">
                             2. It’s better to be first in the mind than in the marketplace?
                             </div>
-                            <div className="font-work-sans text-gray-500 text-sm ">
+                            <div className="font-work-sans text-gray-500 text-xs md:text-sm ">
                             Lorem ipsum dolor sit amet, consectetur a elit. In ut ullamcorper leo, eget euismod orci. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus musbulum ultricies aliquam convallis. Maecenas ut tellus mi. Proin tincidunt, lectus eu volutpat.
                             </div>
                         </div>
@@ -42,7 +42,7 @@ export default function FAQ(){
                             <div className="font-cormorant-uni text-xl sm:text-2xl lg:text-3xl "> 
                             3. marketing is a company’s ultimate objective?
                             </div>
-                            <div className="font-work-sans text-gray-500 text-sm ">
+                            <div className="font-work-sans text-gray-500 text-xs md:text-sm ">
                             Lorem ipsum dolor sit amet, consectetur a elit. In ut ullamcorper leo, eget euismod orci. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus musbulum ultricies aliquam convallis. Maecenas ut tellus mi. Proin tincidunt, lectus eu volutpat mattis, ante metus lacinia tellus, vitae condimentum nulla enim bibendum nibh. Praesent turpis risus, interdum nec venenatis id, pretium sit amet purus. Interdum et male suada fames ac ante ipsum primis in faucibus. Aliquam eu lorem nibh. Mauris ex dolor, rutrum in odio vel, suscipit ultrices nunc. Cras ipsum dolor.
                             </div>
                         </div>
