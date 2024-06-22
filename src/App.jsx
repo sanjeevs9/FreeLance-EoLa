@@ -10,6 +10,7 @@ import ContactUs2 from "./components/ContactUs2"
 import Image from "./components/Image"
 import { BrowserRouter,Routes,Route } from "react-router-dom"
 import FAQ from "./components/Pages/FAQ"
+import Contact from "./components/Pages/Contact"
 
 
 function App() {
@@ -30,7 +31,8 @@ function App() {
             <ContactUs2 />
             <Footer />
           </div>}/>
-          <Route path="/faq" element={<FAQ/>}/>          
+          <Route path="/faq" element={<FAQ/>}/>   
+          <Route path="/contact" element={<Contact/>}/>       
         </Routes>
       </BrowserRouter>
     </>
