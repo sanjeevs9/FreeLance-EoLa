@@ -2,14 +2,17 @@ import user from "../assets/user.png"
 import bag from "../assets/shopping-bag.png"
 import search from "../assets/search.png"
 import bar from "../assets/burger-bar.png"
-import { useEffect, useState } from "react"
+import { useEffect, useRef, useState } from "react"
+import { useNavigate } from "react-router-dom"
 
 
 
-export default function Navbar(){
+export default function Navbar({className}){
     const [drop,setDrop]=useState(false);
+    const navigate=useNavigate();
 
     useEffect(()=>{
+        
         
         const handleResize = ()=>{
             if(window.innerWidth > 1024){
@@ -26,21 +29,21 @@ export default function Navbar(){
 
     return(
         <>
-        <div className="flex justify-between  font-work-sans text-[13px] relative">
-            <div className="bg-white">
-                <img className="object-cover- w-16" src="https://eola.qodeinteractive.com/wp-content/uploads/2018/05/logo-divided-1.png"/>
+        <div className={`flex justify-between min-h-16  font-work-sans text-[13px] relative ${className}`}>
+            <div onClick={()=>{navigate('/')}} className="cursor-pointer">
+                <img className="object-cover w-16" src="https://eola.qodeinteractive.com/wp-content/uploads/2018/05/logo-divided-1.png"/>
             </div>
-            <div className="flex justify-between gap-10 pt-4 pr-2  ">
+            <div className="flex justify-between gap-10  pr-2 items-center">
                 <div className="hidden lg:flex">
                     <ul className="flex justify-between gap-10 pt-1">
                         <li className="cursor-pointer underline underline-offset-4">HOME
                         </li>
-                        <li className="cursor-pointer relative text-black   transition-all before:transition-[width] ontransition-all before:duration-300 before:absolute before:bg-black before:origin-center before:h-[1px] before:w-0 hover:before:w-[50%] before:bottom-5 before:left-[50%] after:transition-[width] ontransition-all after:duration-300 after:absolute after:bg-black after:origin-center after:h-[1px] after:w-0 hover:after:w-[50%] after:bottom-5 after:right-[50%]">PAGES</li>
-                        <li className="cursor-pointer relative text-black   transition-all before:transition-[width] ontransition-all before:duration-300 before:absolute before:bg-black before:origin-center before:h-[1px] before:w-0 hover:before:w-[50%] before:bottom-5 before:left-[50%] after:transition-[width] ontransition-all after:duration-300 after:absolute after:bg-black after:origin-center after:h-[1px] after:w-0 hover:after:w-[50%] after:bottom-5 after:right-[50%]">STORE</li>
-                        <li className="cursor-pointer relative text-black   transition-all before:transition-[width] ontransition-all before:duration-300 before:absolute before:bg-black before:origin-center before:h-[1px] before:w-0 hover:before:w-[50%] before:bottom-5 before:left-[50%] after:transition-[width] ontransition-all after:duration-300 after:absolute after:bg-black after:origin-center after:h-[1px] after:w-0 hover:after:w-[50%] after:bottom-5 after:right-[50%]">SHOP</li>
-                        <li className="cursor-pointer relative text-black   transition-all before:transition-[width] ontransition-all before:duration-300 before:absolute before:bg-black before:origin-center before:h-[1px] before:w-0 hover:before:w-[50%] before:bottom-5 before:left-[50%] after:transition-[width] ontransition-all after:duration-300 after:absolute after:bg-black after:origin-center after:h-[1px] after:w-0 hover:after:w-[50%] after:bottom-5 after:right-[50%]">LOOKBOOK</li>
-                        <li className="cursor-pointer relative text-black   transition-all before:transition-[width] ontransition-all before:duration-300 before:absolute before:bg-black before:origin-center before:h-[1px] before:w-0 hover:before:w-[50%] before:bottom-5 before:left-[50%] after:transition-[width] ontransition-all after:duration-300 after:absolute after:bg-black after:origin-center after:h-[1px] after:w-0 hover:after:w-[50%] after:bottom-5 after:right-[50%]">BLOG</li>
-                        <li className="cursor-pointer relative text-black   transition-all before:transition-[width] ontransition-all before:duration-300 before:absolute before:bg-black before:origin-center before:h-[1px] before:w-0 hover:before:w-[50%] before:bottom-5 before:left-[50%] after:transition-[width] ontransition-all after:duration-300 after:absolute after:bg-black after:origin-center after:h-[1px] after:w-0 hover:after:w-[50%] after:bottom-5 after:right-[50%]">ELEMENTS</li>
+                        <li className="cursor-pointer relative text-black   transition-all before:transition-[width] ontransition-all before:duration-300 before:absolute before:bg-black before:origin-center before:h-[1px] before:w-0 hover:before:w-[50%] before:top-5 before:left-[50%] after:transition-[width] ontransition-all after:duration-300 after:absolute after:bg-black after:origin-center after:h-[1px] after:w-0 hover:after:w-[50%] after:top-5 after:right-[50%]">PAGES</li>
+                        <li className="cursor-pointer relative text-black   transition-all before:transition-[width] ontransition-all before:duration-300 before:absolute before:bg-black before:origin-center before:h-[1px] before:w-0 hover:before:w-[50%] before:top-5 before:left-[50%] after:transition-[width] ontransition-all after:duration-300 after:absolute after:bg-black after:origin-center after:h-[1px] after:w-0 hover:after:w-[50%] after:top-5 after:right-[50%]">STORE</li>
+                        <li className="cursor-pointer relative text-black   transition-all before:transition-[width] ontransition-all before:duration-300 before:absolute before:bg-black before:origin-center before:h-[1px] before:w-0 hover:before:w-[50%] before:top-5 before:left-[50%] after:transition-[width] ontransition-all after:duration-300 after:absolute after:bg-black after:origin-center after:h-[1px] after:w-0 hover:after:w-[50%] after:top-5 after:right-[50%]">SHOP</li>
+                        <li className="cursor-pointer relative text-black   transition-all before:transition-[width] ontransition-all before:duration-300 before:absolute before:bg-black before:origin-center before:h-[1px] before:w-0 hover:before:w-[50%] before:top-5 before:left-[50%] after:transition-[width] ontransition-all after:duration-300 after:absolute after:bg-black after:origin-center after:h-[1px] after:w-0 hover:after:w-[50%] after:top-5 after:right-[50%]">LOOKBOOK</li>
+                        <li className="cursor-pointer relative text-black   transition-all before:transition-[width] ontransition-all before:duration-300 before:absolute before:bg-black before:origin-center before:h-[1px] before:w-0 hover:before:w-[50%] before:top-5 before:left-[50%] after:transition-[width] ontransition-all after:duration-300 after:absolute after:bg-black after:origin-center after:h-[1px] after:w-0 hover:after:w-[50%] after:top-5 after:right-[50%]">BLOG</li>
+                        <li className="cursor-pointer relative text-black   transition-all before:transition-[width] ontransition-all before:duration-300 before:absolute before:bg-black before:origin-center before:h-[1px] before:w-0 hover:before:w-[50%] before:top-5 before:left-[50%] after:transition-[width] ontransition-all after:duration-300 after:absolute after:bg-black after:origin-center after:h-[1px] after:w-0 hover:after:w-[50%] after:top-5 after:right-[50%]">ELEMENTS</li>
                     </ul>
                 </div>
                 <div className="cursor-pointer transition ease-in-out delay-100 hover:-translate-y-[1px] hover:scale-110 duration-300">

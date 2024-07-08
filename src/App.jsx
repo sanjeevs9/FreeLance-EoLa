@@ -11,13 +11,36 @@ import Image from "./components/Image"
 import { BrowserRouter,Routes,Route } from "react-router-dom"
 import FAQ from "./components/Pages/FAQ"
 import Contact from "./components/Pages/Contact"
+import Navbar from "./components/Navbar"
+import { useEffect, useState } from "react"
+import HandleNav from "./components/HandleNav"
 
 
 function App() {
+  const[top,setTop]=useState(true);
+
+  useEffect(()=>{
+
+    async function handle(){
+      window.addEventListener("scroll",()=>{
+        window.scrollY<=60?setTop(true):setTop(false);
+      })
+    }
+    handle();
+  
+
+  })
 
   return (
     <>
+   
+   
+    
     <BrowserRouter>
+    <div className={`${top?`hidden`: `fixed bg-white`}   z-20 top-0 w-full`}>
+    <Navbar className={`items-center pl-5 pr-5`}></Navbar>
+    </div>
+    <HandleNav/>
       <Routes>
         <Route path="/" element={<div className="overflow-x-hidden">
             <Hero></Hero>
@@ -31,6 +54,7 @@ function App() {
             <ContactUs2 />
             <Footer />
           </div>}/>
+          
           <Route path="/faq" element={<FAQ/>}/>   
           <Route path="/contact" element={<Contact/>}/>       
         </Routes>

@@ -4,7 +4,7 @@ export default function FAQ(){
     return (
         <>
         <div>
-            <div className="p-5  flex flex-col md:gap-14 justify-center items-center">
+            <div className="p-5 pt-0  flex flex-col md:gap-14 justify-center items-center">
                 <div className="flex  w-full lg:h-[27rem] xl:h-[30rem] overflow-hidden">
                     <img className="w-full object-contain xl:object-cover xl:scale-110 2xl:scale-100 scale-150" src={image}/>
                 </div>
