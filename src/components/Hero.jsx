@@ -21,7 +21,7 @@ export default function Hero(){
         <Swiper className='min-h-screen '
       spaceBetween={50}
       slidesPerView={1}
-      autoplay={{delay: 2500,disableOnInteraction: false}}
+      autoplay={{delay: 3500,disableOnInteraction: false}}
       loop={true}
       speed={1000}
       modules={[Autoplay]}
