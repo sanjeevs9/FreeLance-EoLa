@@ -14,7 +14,7 @@ const container = {
     }
   };
   const p = {
-    hidden: { opacity: 0, scale: 0,y:100 },
+    hidden: { opacity: 0, scale: 0,y:50 },
     visible: {
       opacity: 1,
       scale: 1,
@@ -29,7 +29,7 @@ const container = {
   };
 
   const t = {
-    hidden: { opacity: 0, scale: 0,y:100 },
+    hidden: { opacity: 0, scale: 0,y:50 },
     visible: {
       opacity: 1,
       scale: 1,
