@@ -33,7 +33,7 @@ export default function Navbar({className}){
             <div onClick={()=>{navigate('/')}} className="cursor-pointer">
                 <img className="object-cover w-16" src="https://eola.qodeinteractive.com/wp-content/uploads/2018/05/logo-divided-1.png"/>
             </div>
-            <div className="flex justify-between gap-10  pr-2 items-center">
+            <div className="flex justify-between gap-10  pr-2 items-center ">
                 <div className="hidden lg:flex">
                     <ul className="flex justify-between gap-10 pt-1">
                         <li className="cursor-pointer underline underline-offset-4">HOME
@@ -55,8 +55,8 @@ export default function Navbar({className}){
                 <div className="cursor-pointer transition ease-in-out delay-100 hover:-translate-y-[1px] hover:scale-110 duration-300">
                     <img src={bag} className="object-cover w-5"></img>
                 </div>
-                <div className="lg:hidden cursor-pointer transition ease-in-out delay-100  hover:scale-110  -translate-y-1/4 " onClick={()=>{setDrop(!drop)}}>
-                    <img className="object-cover w-10" src={bar}></img>
+                <div className="lg:hidden cursor-pointer  transition ease-in-out delay-100  hover:scale-110  -translate-y-1/4 " onClick={()=>{setDrop(!drop)}}>
+                    <img className="object-cover w-10 translate-y-[10px]" src={bar}></img>
                 </div>
                 {drop && (
                         <div className="absolute top-12 right-0 bg-white  w-60 rounded-sm">
