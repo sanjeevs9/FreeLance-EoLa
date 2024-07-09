@@ -21,8 +21,8 @@ export default function Image(){
     
     return (
         <>
-            <div ref={ref} className="p-5  z-10 ">
-                <div  className=" h-[13rem] lg:h-[16rem] xl:h-[23rem]  relative z-10 overflow-hidden">
+            <div ref={ref} className="p-5  z-10  h-fit">
+                <div  className="h-[10rem] sm:h-[13rem] lg:h-[16rem] xl:h-[23rem]  relative z-10 overflow-hidden">
        <motion.img style={{y}} className={`absolute ${window.innerWidth<=1024?"top-[-10px]":"top-[-120px]"}  w-full -z-40 h-max `} src={img}></motion.img>
                 </div>
             </div>

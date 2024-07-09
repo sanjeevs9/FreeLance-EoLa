@@ -8,7 +8,7 @@ export default function News(){
     return(
         <>
     <div className="flex justify-center pl-12 pr-12 md:pl-10 md:pr-10  ">
-        <div className="flex flex-col justify-center items-center pt-14 sm:pt-20 md:w-[80rem]  ">
+        <div className="flex flex-col justify-center items-center pt-6 sm:pt-14 md:w-[80rem]  ">
             <div className="pb-10">
                 <div className="text-[#f5989d] font-cormorant-gara text-center sm:text-xl text-lg font-medium italic">
                     spring / summer ‘18 collection
