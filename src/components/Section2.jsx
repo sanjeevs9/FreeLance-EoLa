@@ -19,7 +19,7 @@ export default function Section2() {
     const ref=useRef(null);
     const { scrollYProgress } = useScroll({ target: ref });
     const y = useParallax(scrollYProgress, 60);
-
+  
 
     return (
         <>

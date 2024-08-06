@@ -14,6 +14,7 @@ import Contact from "./components/Pages/Contact"
 import Navbar from "./components/Navbar"
 import { useEffect, useState } from "react"
 import HandleNav from "./components/HandleNav"
+import Section3 from "./components/Section3"
 
 
 function App() {
@@ -45,6 +46,7 @@ function App() {
         <Route path="/" element={<div className="overflow-x-hidden">
             <Hero></Hero>
             <Section2 />
+            <Section3/>
             <Section4 />
             <Carousel />
             <Image />

@@ -10,14 +10,14 @@ import {
 const img="https://eola.qodeinteractive.com/wp-content/uploads/2018/05/h1-parallax.jpg"
 
 function useParallax(value,distance) {
-    window.innerWidth<=768?distance=20:distance
+    window.innerWidth<=768?distance=30:distance
     return useTransform(value, [0, 1], [-distance, distance]);
   }
 
 export default function Image(){
     const ref=useRef(null);
     const { scrollYProgress } = useScroll({ target: ref });
-    const y = useParallax(scrollYProgress, 50);
+    const y = useParallax(scrollYProgress, 60);
     
     return (
         <>
