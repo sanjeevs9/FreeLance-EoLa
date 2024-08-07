@@ -67,7 +67,7 @@ export default function Product({name,price,image}){
                    ${price}
                 </motion.div>
                 <motion.div variants={btn} initial="hidden" animate={hover?"visible":"hidden"} className=" bg-[#f5989d] p-[1.9px]  items-center justify-center w-[153px] lg:w-[151px] xl:w-[155px]">
-                        <button className="text-center  text-base lg:text-sm bg-white hover:bg-[#f5989d] hover:text-white  font-cormorant-gara  pt-3 pb-3 pl-8 pr-9 md:pt-3 md:pb-3 lg:pt-3 lg:pb-3 lg:pl-10 lg:pr-9 xl:pt- xl:pb-5 xl:pl-10 xl:pr-10">Add To Cart</button>
+                        <button className="text-center  text-base lg:text-sm bg-white hover:bg-[#f5989d] hover:text-white  font-cormorant-gara  pt-3 pb-3 pl-8 pr-9 md:pt-3 md:pb-3 lg:pt-3 lg:pb-3 lg:pl-10 lg:pr-9 xl:pt-4 xl:pb-4 xl:pl-10 xl:pr-10">Add To Cart</button>
                     </motion.div>
                 </div>
             </div>
