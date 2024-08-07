@@ -1,13 +1,25 @@
+import { useEffect, useState } from "react"
 
 
 export default function Product({name,price,image}){
-    return(
+    const [hover,sethover]=useState(false);
 
+    function handlemouseEnter(){
+        sethover(true);
+    }
+
+    function handlemouseLeave(){
+        sethover(false);
+    }
+
+    
+
+    return(
         <>
-            <div style={{backgroundImage:`url(${image})`}}  className={`bg-[#f5f5f7]  p-4  flex justify-center hover:cursor-pointer h-[40rem] sm:h-[25rem] md:h-[20rem] lg:h-[17rem] xl:h-[29rem] 2xl:h-[32rem]`}
+            <div onMouseEnter={handlemouseEnter} onMouseLeave={handlemouseLeave} style={{ backgroundImage: hover ? 'none' : `url(${image})` }} 
+             className={` bg-cover bg-[#f5f5f7]  p-4  flex justify-center hover:cursor-pointer h-[40rem] sm:h-[25rem] md:h-[20rem] lg:h-[17rem] xl:h-[29rem] 2xl:h-[32rem]`}
             > 
-                <div className="flex flex-col gap-2 justify-center items-center bg-white w-full ">
-               
+                <div className={` ${hover?"flex":"hidden"}  flex-col gap-2 justify-center items-center bg-white w-full `}>
                 <div className="font-cormorant-uni font-semibold">
                     {name}
                 </div>
