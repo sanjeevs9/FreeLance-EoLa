@@ -13,12 +13,12 @@ export default function Section3(){
 
 
     const products=[{name:"Green Scarf",price:48,image:p1},{name:"Pink Top",price:70,image:p2},{name:"Golden Shoe",price:48,image:p3},{name:"Modern Table",price:98,image:p4},{name:"Slim Waller",price:58,image:p5},{name:"Gloves With Pearls",price:99,image:p6},{name:"Empress Earings",price:129,image:p7},{name:"Print Blazer",price:48,image:p8}]
-    // const products=[{name:"Green Scarf",price:48,image:""}]
+   
 
     return (
      
-        <div className=" flex pl-10 pr-10 pt-16">
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10 w-full">
+        <div className=" flex pl-5 pr-5 md:pl-10 md:pr-10 pt-16">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10 lg:gap-5 w-full ">
             {products.map((item)=>(
                  <Product key={item.name} name={item.name} price={item.price} image={item.image}/>
                 
