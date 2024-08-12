@@ -1,0 +1,106 @@
+[
+  {
+    "name": "Green Scarf",
+    "price": 48,
+    "image": "../src/assets/p1.jpeg",
+    "description": "Lorem ipsum dolor sit amet, an sea sale simul. Nonumy essent menandri ne usu, enim dicant euismod no sed. At eum eius inani. Ius at sint velit, nec at labores scaevola prodesset. An est quem probatus, justo suscipit mea et. Reque porro placerat qui ut, cu pro esse tibique perpetua.",
+    "SKU": "001",
+    "category": "Accessories",
+    "tags": ["Fashion", "Winter", "Stylish"],
+    "additional": {
+      "weight": "0.2 kg",
+      "dimensions": "180 × 30 cm"
+    }
+  },
+  {
+    "name": "Pink Top",
+    "price": 70,
+    "image": "../src/assets/p2.jpeg",
+    "description": "Lorem ipsum dolor sit amet, an sea sale simul. Nonumy essent menandri ne usu, enim dicant euismod no sed. At eum eius inani. Ius at sint velit, nec at labores scaevola prodesset. An est quem probatus, justo suscipit mea et. Reque porro placerat qui ut, cu pro esse tibique perpetua.",
+    "SKU": "002",
+    "category": "Clothing",
+    "tags": ["Casual", "Summer", "Trendy"],
+    "additional": {
+      "weight": "0.4 kg",
+      "dimensions": "60 × 40 cm"
+    }
+  },
+  {
+    "name": "Golden Shoe",
+    "price": 48,
+    "image": "../src/assets/p3.jpeg",
+    "description": "Lorem ipsum dolor sit amet, an sea sale simul. Nonumy essent menandri ne usu, enim dicant euismod no sed. At eum eius inani. Ius at sint velit, nec at labores scaevola prodesset. An est quem probatus, justo suscipit mea et. Reque porro placerat qui ut, cu pro esse tibique perpetua.",
+    "SKU": "003",
+    "category": "Footwear",
+    "tags": ["Elegant", "Party", "Glamorous"],
+    "additional": {
+      "weight": "0.8 kg",
+      "dimensions": "30 × 12 cm"
+    }
+  },
+  {
+    "name": "Modern Table",
+    "price": 98,
+    "image": "../src/assets/p4.jpeg",
+    "description": "Lorem ipsum dolor sit amet, an sea sale simul. Nonumy essent menandri ne usu, enim dicant euismod no sed. At eum eius inani. Ius at sint velit, nec at labores scaevola prodesset. An est quem probatus, justo suscipit mea et. Reque porro placerat qui ut, cu pro esse tibique perpetua.",
+    "SKU": "004",
+    "category": "Furniture",
+    "tags": ["Contemporary", "Home", "Minimalist"],
+    "additional": {
+      "weight": "12 kg",
+      "dimensions": "120 × 60 cm"
+    }
+  },
+  {
+    "name": "Slim Wallet",
+    "price": 58,
+    "image": "../src/assets/p5.jpeg",
+    "description": "Lorem ipsum dolor sit amet, an sea sale simul. Nonumy essent menandri ne usu, enim dicant euismod no sed. At eum eius inani. Ius at sint velit, nec at labores scaevola prodesset. An est quem probatus, justo suscipit mea et. Reque porro placerat qui ut, cu pro esse tibique perpetua.",
+    "SKU": "005",
+    "category": "Accessories",
+    "tags": ["Leather", "Compact", "Stylish"],
+    "additional": {
+      "weight": "0.1 kg",
+      "dimensions": "11 × 9 cm"
+    }
+  },
+  {
+    "name": "Gloves With Pearls",
+    "price": 99,
+    "image": "../src/assets/p6.jpeg",
+    "description": "Lorem ipsum dolor sit amet, an sea sale simul. Nonumy essent menandri ne usu, enim dicant euismod no sed. At eum eius inani. Ius at sint velit, nec at labores scaevola prodesset. An est quem probatus, justo suscipit mea et. Reque porro placerat qui ut, cu pro esse tibique perpetua.",
+    "SKU": "006",
+    "category": "Accessories",
+    "tags": ["Winter", "Elegant", "Luxurious"],
+    "additional": {
+      "weight": "0.15 kg",
+      "dimensions": "24 × 10 cm"
+    }
+  },
+  {
+    "name": "Empress Earrings",
+    "price": 129,
+    "image": "../src/assets/p7.jpeg",
+    "description": "Lorem ipsum dolor sit amet, an sea sale simul. Nonumy essent menandri ne usu, enim dicant euismod no sed. At eum eius inani. Ius at sint velit, nec at labores scaevola prodesset. An est quem probatus, justo suscipit mea et. Reque porro placerat qui ut, cu pro esse tibique perpetua.",
+    "SKU": "007",
+    "category": "Jewelry",
+    "tags": ["Luxury", "Handcrafted", "Elegant"],
+    "additional": {
+      "weight": "0.05 kg",
+      "dimensions": "3 × 2 cm"
+    }
+  },
+  {
+    "name": "Print Blazer",
+    "price": 48,
+    "image": "../src/assets/p8.jpeg",
+    "description": "Lorem ipsum dolor sit amet, an sea sale simul. Nonumy essent menandri ne usu, enim dicant euismod no sed. At eum eius inani. Ius at sint velit, nec at labores scaevola prodesset. An est quem probatus, justo suscipit mea et. Reque porro placerat qui ut, cu pro esse tibique perpetua.",
+    "SKU": "008",
+    "category": "Clothing",
+    "tags": ["Formal", "Business", "Chic"],
+    "additional": {
+      "weight": "0.6 kg",
+      "dimensions": "80 × 50 cm"
+    }
+  }
+]
