@@ -25,7 +25,7 @@ export default function Section3(){
         <div className=" flex pl-5 pr-5 md:pl-10 md:pr-10 pt-16">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10 lg:gap-5 w-full ">
             {product.map((item)=>(
-                 <Product key={item.name} name={item.name} price={item.price} image={item.image}/>
+                 <Product key={item.name} name={item.name} price={item.price} image={item.image} id={item.SKU}/>
                 
             ))}
            

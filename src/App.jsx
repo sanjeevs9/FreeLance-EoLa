@@ -15,6 +15,7 @@ import Navbar from "./components/Navbar"
 import { useEffect, useState } from "react"
 import HandleNav from "./components/HandleNav"
 import Section3 from "./components/Section3"
+import SinglePrdocut from "./components/SingleProduct"
 
 
 function App() {
@@ -58,7 +59,8 @@ function App() {
           </div>}/>
           
           <Route path="/faq" element={<FAQ/>}/>   
-          <Route path="/contact" element={<Contact/>}/>       
+          <Route path="/contact" element={<Contact/>}/>  
+          <Route path="/product/:id" element={<SinglePrdocut/>}/>     
         </Routes>
       </BrowserRouter>
     </>

@@ -1,10 +1,12 @@
 import { useEffect, useState } from "react"
 import { motion } from "framer-motion";
 import bg from "../assets/6533.jpg"
+import { useNavigate } from "react-router-dom";
 
 
-export default function Product({name,price,image}){
+export default function Product({name,price,image,id}){
     const [hover,sethover]=useState(false);
+    const navigate =useNavigate();
 
     function handlemouseEnter(){
         sethover(true);
@@ -56,7 +58,7 @@ export default function Product({name,price,image}){
 
     return(
         <>
-            <div onMouseEnter={handlemouseEnter} onMouseLeave={handlemouseLeave} style={{ backgroundImage: hover ? `url(${bg})` : `url(${image})` }}  
+            <div onClick={()=>{navigate(`/product/${id}`)}} onMouseEnter={handlemouseEnter} onMouseLeave={handlemouseLeave} style={{ backgroundImage: hover ? `url(${bg})` : `url(${image})` }}  
              className={` bg-cover bg-[#f5f5f7]  p-5 md:p-4  flex justify-center hover:cursor-pointer h-[27rem] sm:h-[25rem] md:h-[20rem]  w-full lg:h-[17rem] xl:h-[29rem] 2xl:h-[32rem]`}
             > 
                 <div   className={` ${hover?"flex":"hidden"}  flex-col gap-2 justify-center items-center bg-white w-full `}>
