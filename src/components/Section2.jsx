@@ -10,7 +10,6 @@ import {
 const photo = "https://eola.qodeinteractive.com/wp-content/uploads/2018/05/h1-img-1.jpg";
 
 function useParallax(value,distance) {
-    console.log(window.screen)
     window.innerWidth<=640?distance=0:distance
     return useTransform(value, [0, 1], [-distance, distance]);
   }

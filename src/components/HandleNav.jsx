@@ -8,7 +8,6 @@ export default function HandleNav(){
     const[hide,sethide]=useState(true);
 
     useEffect(()=>{
-        console.log(location);
         location.pathname=="/"?sethide(true):sethide(false)
 
     },[location])

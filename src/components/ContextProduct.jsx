@@ -9,10 +9,8 @@ export default function ContextProduct({children}){
 
     useEffect(()=>{
         async function getDetails(){
-            console.log("hello")
             await axios.get("/product.json")
             .then(res=>{
-                console.log(res.data);
                 setproduct(res.data);
                 setloading(false);
             }).catch(err=>{
@@ -20,7 +18,6 @@ export default function ContextProduct({children}){
             })
         }
         getDetails();
-          console.log("hello")
     },[])
 
     return (
