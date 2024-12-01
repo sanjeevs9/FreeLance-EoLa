@@ -2,7 +2,7 @@
   {
     "name": "Green Scarf",
     "price": 48,
-    "image": "../src/assets/p1.jpeg",
+    "image": "https://eola.qodeinteractive.com/wp-content/uploads/2018/05/shop-1-img-1.jpg",
     "description": "Lorem ipsum dolor sit amet, an sea sale simul. Nonumy essent menandri ne usu, enim dicant euismod no sed. At eum eius inani. Ius at sint velit, nec at labores scaevola prodesset. An est quem probatus, justo suscipit mea et. Reque porro placerat qui ut, cu pro esse tibique perpetua.",
     "SKU": "001",
     "category": "Accessories",
@@ -15,7 +15,7 @@
   {
     "name": "Pink Top",
     "price": 70,
-    "image": "../src/assets/p2.jpeg",
+    "image": "https://eola.qodeinteractive.com/wp-content/uploads/2018/05/shop-1-img-2.jpg",
     "description": "Lorem ipsum dolor sit amet, an sea sale simul. Nonumy essent menandri ne usu, enim dicant euismod no sed. At eum eius inani. Ius at sint velit, nec at labores scaevola prodesset. An est quem probatus, justo suscipit mea et. Reque porro placerat qui ut, cu pro esse tibique perpetua.",
     "SKU": "002",
     "category": "Clothing",
@@ -28,7 +28,7 @@
   {
     "name": "Golden Shoe",
     "price": 48,
-    "image": "../src/assets/p3.jpeg",
+    "image": "https://eola.qodeinteractive.com/wp-content/uploads/2018/05/shop-1-img-3.jpg",
     "description": "Lorem ipsum dolor sit amet, an sea sale simul. Nonumy essent menandri ne usu, enim dicant euismod no sed. At eum eius inani. Ius at sint velit, nec at labores scaevola prodesset. An est quem probatus, justo suscipit mea et. Reque porro placerat qui ut, cu pro esse tibique perpetua.",
     "SKU": "003",
     "category": "Footwear",
@@ -41,7 +41,7 @@
   {
     "name": "Modern Table",
     "price": 98,
-    "image": "../src/assets/p4.jpeg",
+    "image": "https://eola.qodeinteractive.com/wp-content/uploads/2018/05/shop-1-img-4.jpg",
     "description": "Lorem ipsum dolor sit amet, an sea sale simul. Nonumy essent menandri ne usu, enim dicant euismod no sed. At eum eius inani. Ius at sint velit, nec at labores scaevola prodesset. An est quem probatus, justo suscipit mea et. Reque porro placerat qui ut, cu pro esse tibique perpetua.",
     "SKU": "004",
     "category": "Furniture",
@@ -67,7 +67,7 @@
   {
     "name": "Gloves With Pearls",
     "price": 99,
-    "image": "../src/assets/p6.jpeg",
+    "image": "https://eola.qodeinteractive.com/wp-content/uploads/2018/05/shop-1-img-6.jpg",
     "description": "Lorem ipsum dolor sit amet, an sea sale simul. Nonumy essent menandri ne usu, enim dicant euismod no sed. At eum eius inani. Ius at sint velit, nec at labores scaevola prodesset. An est quem probatus, justo suscipit mea et. Reque porro placerat qui ut, cu pro esse tibique perpetua.",
     "SKU": "006",
     "category": "Accessories",
@@ -80,7 +80,7 @@
   {
     "name": "Empress Earrings",
     "price": 129,
-    "image": "../src/assets/p7.jpeg",
+    "image": "https://eola.qodeinteractive.com/wp-content/uploads/2018/05/shop-1-img-7.jpg",
     "description": "Lorem ipsum dolor sit amet, an sea sale simul. Nonumy essent menandri ne usu, enim dicant euismod no sed. At eum eius inani. Ius at sint velit, nec at labores scaevola prodesset. An est quem probatus, justo suscipit mea et. Reque porro placerat qui ut, cu pro esse tibique perpetua.",
     "SKU": "007",
     "category": "Jewelry",
@@ -93,7 +93,7 @@
   {
     "name": "Print Blazer",
     "price": 48,
-    "image": "../src/assets/p8.jpeg",
+    "image": "https://eola.qodeinteractive.com/wp-content/uploads/2018/05/shop-1-img-8.jpg",
     "description": "Lorem ipsum dolor sit amet, an sea sale simul. Nonumy essent menandri ne usu, enim dicant euismod no sed. At eum eius inani. Ius at sint velit, nec at labores scaevola prodesset. An est quem probatus, justo suscipit mea et. Reque porro placerat qui ut, cu pro esse tibique perpetua.",
     "SKU": "008",
     "category": "Clothing",
