@@ -12,13 +12,11 @@ import Navbar from './Navbar';
 export default function Hero(){
     return(
         <>
-        <div className='p-5 relative z-0'>
-            <div className='absolute top-5  z-20  w-full pr-14'>
-                
+        <div className='p-3 sm:p-5 relative z-0'>
+            <div className='absolute top-3 sm:top-5 z-20 w-full pr-8 sm:pr-14'>
             <Navbar/>
-            
             </div>
-        <Swiper className='min-h-screen '
+        <Swiper className='min-h-[60vh] sm:min-h-screen'
       spaceBetween={50}
       slidesPerView={1}
       autoplay={{delay: 3500,disableOnInteraction: false}}
@@ -26,16 +24,16 @@ export default function Hero(){
       speed={1000}
       modules={[Autoplay]}
     >
-      <SwiperSlide className='min-h-screen bg-black'>
+      <SwiperSlide className='min-h-[60vh] sm:min-h-screen bg-black'>
         <ImageCard image={image1} paragraph={"Our New Arrivals Comming To Your Address"} title={"Stylish Details"} text={"SEE MORE"}/>
       </SwiperSlide>
-      <SwiperSlide className=''>
+      <SwiperSlide>
       <ImageCard image={image2} paragraph={"Our New Arrivals Comming To Your Address"} title={"New Collection"} text={"SEE MORE"}/>
       </SwiperSlide>
       <SwiperSlide>
       <ImageCard image={image3} paragraph={"Our New Arrivals Comming To Your Address"} title={"Lovely Colours"} text={"SEE MORE"}/>
       </SwiperSlide>
-      
+
     </Swiper>
     </div>
         </>

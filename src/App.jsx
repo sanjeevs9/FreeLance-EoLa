@@ -11,6 +11,10 @@ import Image from "./components/Image"
 import { BrowserRouter,Routes,Route } from "react-router-dom"
 import FAQ from "./components/Pages/FAQ"
 import Contact from "./components/Pages/Contact"
+import Shop from "./components/Pages/Shop"
+import Blog from "./components/Pages/Blog"
+import Lookbook from "./components/Pages/Lookbook"
+import Elements from "./components/Pages/Elements"
 import Navbar from "./components/Navbar"
 import { useEffect, useState } from "react"
 import HandleNav from "./components/HandleNav"
@@ -29,15 +33,15 @@ function App() {
       })
     }
     handle();
-  
+
 
   })
 
   return (
     <>
-   
-   
-    
+
+
+
     <BrowserRouter>
     <div className={`${top?`hidden`: `fixed bg-white`}   z-20 top-0 w-full`}>
     <Navbar className={`items-center pl-5 pr-5`}></Navbar>
@@ -57,10 +61,15 @@ function App() {
             <ContactUs2 />
             <Footer />
           </div>}/>
-          
-          <Route path="/faq" element={<FAQ/>}/>   
-          <Route path="/contact" element={<Contact/>}/>  
-          <Route path="/product/:id" element={<SinglePrdocut/>}/>     
+
+          <Route path="/faq" element={<FAQ/>}/>
+          <Route path="/contact" element={<Contact/>}/>
+          <Route path="/shop" element={<Shop/>}/>
+          <Route path="/store" element={<Shop/>}/>
+          <Route path="/blog" element={<Blog/>}/>
+          <Route path="/lookbook" element={<Lookbook/>}/>
+          <Route path="/elements" element={<Elements/>}/>
+          <Route path="/product/:id" element={<SinglePrdocut/>}/>
         </Routes>
       </BrowserRouter>
     </>
